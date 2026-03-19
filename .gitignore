@@ -1,0 +1,21 @@
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.venv/
+
+# Environment variables file
+.env
+
+# Data artifacts (never commit raw data)
+data/
+*.csv
+*.db
+
+# Jupyter notebook checkpoints
+*.ipynb_checkpoints
+
+# OS generated files
+.DS_Store
+Thumbs.db
