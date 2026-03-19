@@ -32,15 +32,25 @@ market-research-lab/
 ## Getting Started
 
 1. **Install Python 3.11+** and create a virtual environment:
+   - https://www.python.org/downloads/release/python-3110/
 
-   ```bash
-   python3 -m venv .venv
-   source .venv/bin/activate
+   ```
+   ✔️ CHECK THIS BOX:
+   ☑ Add Python to PATH
+   Then click:
+   Customize Installation → Install
+   ```
+
+   ```
+   py install 3.11
+   py 3.11 -m venv .venv      
+   .venv/bin/activate
    ```
 
 2. **Install dependencies:**
 
-   ```bash
+   ```
+   pip install --upgrade pip
    pip install -r requirements.txt
    ```
 
@@ -54,4 +64,4 @@ market-research-lab/
 
 ## License
 
-This project is licensed under the MIT License. See the `LICENSE` file for details.
+ See the `LICENSE` file for details.
